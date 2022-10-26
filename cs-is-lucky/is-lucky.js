@@ -22,5 +22,3 @@ function isLucky(n) {
 
   return false;
 }
-
-isLucky(2556);
