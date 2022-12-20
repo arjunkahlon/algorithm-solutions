@@ -1,0 +1,8 @@
+/* eslint-disable no-unused-vars */
+
+function maskify(cc) {
+  if (cc.length <= 4) {
+    return cc;
+  }
+  return '#'.repeat(cc.length - 4) + cc.slice(cc.length - 4, cc.length);
+}
