@@ -9,3 +9,7 @@ function properNounCorrection(noun) {
     }
   ).join('');
 }
+
+function alternativeSolution(noun) {
+  return noun[0].toUpperCase() + noun.slice(1, noun.length).toLowerCase();
+}
