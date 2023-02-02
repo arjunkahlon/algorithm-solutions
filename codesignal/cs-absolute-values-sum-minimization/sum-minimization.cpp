@@ -1,5 +1,5 @@
 #include <vector>
 
-int solution(vector<int> a) {
+int sumMinimization(vector<int> a) {
     return a[(a.size() - 1) / 2];
 }
