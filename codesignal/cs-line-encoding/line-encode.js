@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-function solution(s) {
+function lineEncode(s) {
   const groupArr = s.match(/([a-z])\1*/g);
 
   return groupArr.map(element => {
